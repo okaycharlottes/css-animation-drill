@@ -1,0 +1,69 @@
+#stage{
+   height: 38rem;
+   width: 38rem;
+   margin-left: 28%;
+   margin-top: 5%;
+   position: relative;
+  
+}
+
+#hero{
+    top: 19px;
+    left: 19px;
+    height: 75px;
+    width: 75px;
+    border:1px dashed red;
+    position: absolute;
+    animation: carre 5s linear forwards, carre1 2s 5s linear forwards, carre2 0.5s 7s linear forwards, carre3 2.5s 9.5s linear forwards, carre4 5s 12s linear forwards;
+    box-sizing: border-box;
+      
+}
+@keyframes carre {
+   to{ left: 500px;
+    }
+}
+
+@keyframes carre1 {
+   
+
+    to{
+        top: 200px;
+    }
+}
+
+@keyframes carre2{
+    
+    
+    to {  transform: translate(-230px) rotate(45deg);
+
+        
+    }   
+}
+
+@keyframes carre3{
+    from {transform: translate(-230px) rotate(45deg);}
+
+    to {border: 1px dashed blue;
+        transform: translate(-480px, 3px) rotate(90deg);}
+        
+}
+
+@keyframes carre4{
+    from { transform: translate(-480px, 3px) rotate(90deg);}
+
+    to{ background: radial-gradient(#e66465, #9198e5);
+        border: none;
+        width: 150px;
+        height: 150px;
+        border-radius: 75%;
+        left: 923px;
+        top: 439px;
+   
+     }
+                        
+}
+
+    
+    
+    
+
