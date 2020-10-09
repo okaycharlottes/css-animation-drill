@@ -62,8 +62,16 @@
      }
                         
 }
+@media screen and (max-width: 768px){
+    #stage{
+    margin-left: O;
+    position: relative;
+}
+}
+
 
     
+
     
     
 
